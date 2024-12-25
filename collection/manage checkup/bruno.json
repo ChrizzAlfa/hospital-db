@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "manage checkup",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

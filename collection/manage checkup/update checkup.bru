@@ -1,0 +1,18 @@
+meta {
+  name: update checkup
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:8000/api/checkups/1
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "checkup_id":1,
+    "result":"Diabetes"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "create prescription",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

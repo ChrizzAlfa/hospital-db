@@ -1,0 +1,20 @@
+meta {
+  name: register patient
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/patients
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Ethan Lee",
+      "email": "ethan.lee@example.com",
+      "gender": "male",
+      "birthday": "1998-03-12"
+  }
+}

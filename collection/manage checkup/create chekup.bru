@@ -1,0 +1,20 @@
+meta {
+  name: create chekup
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/checkups
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "checkup_date": "2024-12-15",
+    "checkup_type": "Blood test",
+    "patient_id": 5,
+    "doctor_id":8
+  }
+}

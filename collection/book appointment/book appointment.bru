@@ -1,0 +1,20 @@
+meta {
+  name: book appointment
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8000/api/appointments
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "email": "ethan.lee@example.com",
+    "doctor_id": 8,
+    "appointment_date": "2024-12-13",
+    "appointment_start_time": "17:14:00"
+  }
+}
